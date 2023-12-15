@@ -1,5 +1,5 @@
-const valorCompra = parseFloat(prompt("Ingrese el valor de la compra en COP:"));
+const purchaseValue = parseFloat(prompt("Please, enter price"));
 
-const aplicaDescuento = valorCompra >= 100000;
+const applyDiscount = purchaseValue >= 100000;
 
-console.log("¿Aplica descuento? " + aplicaDescuento);
+console.log("Apply discount: " + applyDiscount);
